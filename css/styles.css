@@ -1,0 +1,198 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.container-fluid {
+    padding: 1% 10% 13% 10%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.iphone6-image {
+    transform: rotate(25deg);
+    height: 507px;
+    position: absolute;
+}
+
+.navbar {
+    padding-bottom: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+}
+
+.button-download {
+    margin: 30px 45px 0px 0px;
+}
+
+.col-lg-4 {
+    text-align: center;
+    padding: 5%;
+}
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.icon {
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ef8172;
+}
+
+p {
+    color: gray;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    padding: 100px;
+}
+
+.testimonial-image {
+    width: 150px;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.carousel-item {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.company-logo {
+    width: 15%;
+    padding-left: 3rem;
+}
+
+.card {
+    border-style: none;
+}
+
+.card-header {
+    border-style: solid;
+    border-color: rgb(185, 184, 184);
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.card-body {
+    border-style: solid;
+    border-color: rgb(185, 184, 184);
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.card-deck {
+    align-items: center;
+}
+
+.card-text {
+    color: black;
+    font-family: "Montserrat";
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+}
+.footer-text{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+}
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 5% 0%;
+}
+.footer-image{
+    width: 25px;
+    padding-bottom: 10px;
+}
+.header-image{
+    width: 35px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: white;
+    padding: 0;
+    border-width: 3px;
+}
+#pricing{
+    text-align: center;
+    padding-top: 2%;
+}
+@media (max-width:1020px) {
+    .iphone6-image {
+        transform: rotate(0);
+        position: static;
+        padding-top: 5%;
+    }
+
+    #title {
+        text-align: center;
+    }
+    #features{
+        text-align: center;
+        position: static;
+    }
+    #pricing{
+        text-align: center;
+    }
+    .container-fluid{
+        padding-bottom: 8%;
+    }
+}
